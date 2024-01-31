@@ -18,4 +18,4 @@
 -  Responsive Design: The application is completely responsive across all devices, employing responsive design techniques such as media queries and fluid layouts.
 
 # Contact
-Feel free to reach out to me on [hiltrapauline@gmail.com](hiltrapauline@gmail.com)
+Feel free to reach out to me on [hiltrapauline@gmail.com]
