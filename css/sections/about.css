@@ -1,0 +1,102 @@
+.about-us{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.about-us__image{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about-us__image div{
+    padding: 32px 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us__image-food img{
+    width: 225px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.about-us__content{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.food__subtitle{
+    font-size: 18px;
+    font-family: monospace;
+    letter-spacing: -0.01em;
+}
+
+.food__title{
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    color: var(--secondary-color);
+    margin-top: 16px;
+}
+
+.food__description p{
+    font-size: 16px;
+    font-family: monospace;
+    line-height: 36px;
+    letter-spacing: -0.01em;
+    margin: 20px 0;
+}
+
+.about-content__testimonial{
+    margin: 20px 0;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.about-content__customer{
+    flex: 1;
+    gap: 10px;
+}
+
+.about-content__customer h4{
+    font-size: 50px;
+    font-weight: 400;
+    font-family: monospace;
+}
+
+.about-content__customer p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: monospace;
+}
+
+.about-content__review{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 20px;
+    border-left: 3px solid rgba(2,2,2,0.1);
+    min-width: 200px;
+}
+
+.about-content__review img{
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+}
+
+.about-content__review p{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: monospace;
+}
